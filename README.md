@@ -2,10 +2,10 @@
 
 # Flatland Challenge Starter Kit
 
-**[Follow the instructions in the documentation to submit your solutions!](http://flatland.aicrowd.com/first-submission.html)**
+**[Follow these instructions to submit your solutions!](http://flatland.aicrowd.com/getting-started/first-submission.html)**
 
 
-![flatland](https://i.imgur.com/9cNtWjs.gif)
+![flatland](https://i.imgur.com/0rnbSLY.gif)
 
 Communication
 ---
@@ -17,4 +17,4 @@ Communication
 Author
 ---
 
-**[Sharada Mohanty](https://twitter.com/MeMohanty)**
+- **[Sharada Mohanty](https://twitter.com/MeMohanty)**
