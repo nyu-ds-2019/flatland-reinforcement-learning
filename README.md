@@ -7,6 +7,12 @@
 
 ![flatland](https://i.imgur.com/0rnbSLY.gif)
 
+Main links
+---
+
+* [Flatland documentation](https://flatland.aicrowd.com/)
+* [NeurIPS 2020 Challenge](https://www.aicrowd.com/challenges/neurips-2020-flatland-challenge/)
+
 Communication
 ---
 
