@@ -1,7 +1,7 @@
 {
   "challenge_id": "neurips-2020-flatland-challenge",
   "grader_id": "neurips-2020-flatland-challenge",
-  "description": "Optional description of your agent",
-  "debug": true
+  "debug": true,
+  "tags": ["RL"]
 }
 
