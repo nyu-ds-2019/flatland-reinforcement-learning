@@ -28,7 +28,7 @@ from utils.observation_utils import normalize_observation
 VERBOSE = True
 
 # Checkpoint to use (remember to push it!)
-checkpoint = ""
+checkpoint = "checkpoints/sample-checkpoint.pth"
 
 # Use last action cache
 USE_ACTION_CACHE = True
