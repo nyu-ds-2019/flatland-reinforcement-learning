@@ -125,3 +125,8 @@ dmypy.json
 
 scratch/test-envs/
 scratch/
+
+# Checkpoints and replay buffers
+!checkpoints/.gitkeep
+replay_buffers/*
+!replay_buffers/.gitkeep
