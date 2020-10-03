@@ -85,6 +85,8 @@ optional arguments:
   --render RENDER       render 1 episode in 100
 ```
 
+[**📈 Performance training in environments of various sizes**](https://wandb.ai/masterscrat/flatland-examples-reinforcement_learning/reports/Flatland-Starter-Kit-Training-in-environments-of-various-sizes--VmlldzoxNjgxMTk)
+
 [**📈 Performance with various hyper-parameters**](https://app.wandb.ai/masterscrat/flatland-examples-reinforcement_learning/reports/Flatland-Examples--VmlldzoxNDI2MTA)
 
 [![](https://i.imgur.com/Lqrq5GE.png)](https://app.wandb.ai/masterscrat/flatland-examples-reinforcement_learning/reports/Flatland-Examples--VmlldzoxNDI2MTA) 
