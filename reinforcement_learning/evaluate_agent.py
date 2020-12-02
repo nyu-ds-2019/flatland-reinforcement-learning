@@ -241,7 +241,7 @@ def evaluate_agents(file, n_evaluation_episodes, use_gpu, render, allow_skipping
     # small_v0
     small_v0_params = {
         # sample configuration
-        "n_agents": 5,
+        "n_agents": 1,
         "x_dim": 25,
         "y_dim": 25,
         "n_cities": 4,

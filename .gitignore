@@ -130,3 +130,5 @@ scratch/
 !checkpoints/.gitkeep
 replay_buffers/*
 !replay_buffers/.gitkeep
+checkpoints/
+.DS_Store
