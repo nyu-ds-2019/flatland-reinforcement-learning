@@ -24,7 +24,7 @@ from utils.deadlock_check import check_if_all_blocked
 from utils.timer import Timer
 from utils.observation_utils import normalize_observation
 from reinforcement_learning.dddqn_policy import DDDQNPolicy
-
+from reinforcement_learning.model import DuelingQNetwork
 
 def eval_policy(env_params, checkpoint, n_eval_episodes, max_steps, action_size, state_size, seed, render, allow_skipping, allow_caching):
     # Evaluation is faster on CPU (except if you use a really huge policy)
@@ -33,7 +33,7 @@ def eval_policy(env_params, checkpoint, n_eval_episodes, max_steps, action_size,
     }
 
     policy = DDDQNPolicy(state_size, action_size, Namespace(**parameters), evaluation_mode=True)
-    policy.qnetwork_local = torch.load(checkpoint)
+    policy.qnetwork_local = torch.load(checkpoint, map_location={'cuda:0': 'cpu'})
 
     env_params = Namespace(**env_params)
 
@@ -242,14 +242,14 @@ def evaluate_agents(file, n_evaluation_episodes, use_gpu, render, allow_skipping
     small_v0_params = {
         # sample configuration
         "n_agents": 1,
-        "x_dim": 25,
-        "y_dim": 25,
-        "n_cities": 4,
+        "x_dim": 50,
+        "y_dim": 50,
+        "n_cities": 2,
         "max_rails_between_cities": 2,
         "max_rails_in_city": 3,
 
         # observations
-        "observation_tree_depth": 2,
+        "observation_tree_depth": 5,
         "observation_radius": 10,
         "observation_max_path_depth": 20
     }
