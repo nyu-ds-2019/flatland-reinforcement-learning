@@ -1,0 +1,18 @@
+{
+	"n_agents": 2,
+	"x_dim": 25,
+	"y_dim": 25,
+	"n_cities": 4,
+	"max_rails_between_cities": 3,
+	"max_rails_in_city": 4,
+	"observation_tree_depth": 3,
+	"observation_radius": 30,
+	"seed": -1,
+	"rail_generator": "sparse",
+	"stack_obs": false,
+	"how_many_stack": 2,
+	"regenerate_env": false,
+	"regenerate_env_step": 50,
+	"use_predictor": true,
+	"policy": "ppo"
+}

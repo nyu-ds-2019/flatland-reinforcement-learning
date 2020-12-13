@@ -133,3 +133,4 @@ replay_buffers/*
 checkpoints/
 .DS_Store
 models/
+videos/
